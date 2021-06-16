@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4347526434902560681
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4347526434902560683}
+  - component: {fileID: 4347526434902560682}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4347526434902560683
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347526434902560681}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 4.7195053, y: 0.38257238, z: -3.5728643}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4347526434902560682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4347526434902560681}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d170363ad86a934f9f61195bfcc7952, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objectList:
+  - {fileID: 5721992771998284301, guid: 3f6b77806dba1d24abc05a46d904e108, type: 3}
+  - {fileID: 2002250932984879005, guid: 9a8e357258e50324e8f97ef75b2b23fb, type: 3}
+  - {fileID: 254344035034308721, guid: c65f47a900360c747a969559fc8bf7ed, type: 3}
+  - {fileID: 537598819724299683, guid: 66da7ac1724bdac4b85283c67ba0c4dd, type: 3}
+  - {fileID: 7171435835116510024, guid: 164c0f8927bd433449cea7c589cfc3b9, type: 3}
+  - {fileID: 8170226420589226062, guid: eccfbc4abe47d004ca50e745728b0c9b, type: 3}
+  - {fileID: 6117903654100495296, guid: a9351443f3a766843bb23d7f7ba99d74, type: 3}
+  - {fileID: 2575001588189740433, guid: 5763fff4947dc134f822339e9684250b, type: 3}
+  - {fileID: 4312501203313981840, guid: 6ca086308b89ae34abf166e558984ea6, type: 3}
+  - {fileID: 2854725144261653, guid: 187b8ee16af783c4aa2ab060c95ea272, type: 3}
+  isBossTime: 0
+  lastBossWas: 
